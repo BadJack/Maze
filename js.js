@@ -265,9 +265,16 @@ var mazeParam ={
 	//************************************//	
 }
 
-var maze = new Maze(mazeParam);
-maze.build();
-//maze.draw();
+
+
+var draw = generateMaze () {
+  var maze = new Maze(mazeParam);
+  maze.build();
+  //maze.draw();
+};
+
+
+findId('gogogo').onclick = generateMaze;
 
 })();
 	
